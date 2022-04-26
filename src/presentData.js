@@ -3,6 +3,8 @@ import { weatherModule } from "./requestInfo";
 export const display=(() => {
 
     function presentData(data) {
+        const weatherPanel=document.querySelector('.weather-panel');
+        weatherPanel.classList.add('active');
         const name=document.querySelector('#city-name');
         const temperature=document.querySelector('#temperature');
         const feelsLike=document.querySelector('#feels-like');

@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Montserrat', cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2rem;
     color: white;
     background-image: url('./lake-ohau-new-zealand-wide-2560x1440.jpg');
@@ -24,12 +24,24 @@ body {
 .footer {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+
+
+.footer-text2,
+.footer-text3 {
+    font-size:medium;
 }
 
 form {
     position: absolute;
     top:20%;
+    
+    
     
 }
 #search {
@@ -41,9 +53,7 @@ form {
     padding: 2px 23px 2px 10px;
     outline: 0;
 }
-::placeholder {
 
-  }
 
 button {
     height: 30px;
@@ -61,10 +71,20 @@ button {
     position: absolute;
     top:10%;
     color: rgba(0, 0, 0, 0.37);
+    font-size: 75px;
 }
 
 .weather-panel.active {
     background-color: rgba(0, 0, 0, 0.329);
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 40px;
+    font-size: 40px;
+}
+
+p {
+    color:rgb(115, 224, 238);
+}
+
+h2 {
+    color:rgb(216, 182, 182)
 }
